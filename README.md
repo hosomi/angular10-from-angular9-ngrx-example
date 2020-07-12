@@ -1,5 +1,7 @@
 # angular10-from-angular9-ngrx-example
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cf8eda18-21ac-4502-8ae2-3bd39b18ff79/deploy-status)](https://app.netlify.com/sites/angular10-from-angular9-ngrx-example/deploys)
+
 [angular9-ngrx-example](https://github.com/hosomi/angular9-ngrx-example) を Angular 10 に更新します。  
 
 ---　  
