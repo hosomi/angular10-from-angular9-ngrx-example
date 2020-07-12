@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular9-ngrx-example": {
+    "angular10-from-angular9-ngrx-example": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular9-ngrx-example",
+            "outputPath": "dist/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular9-ngrx-example:build"
+            "browserTarget": "angular10-from-angular9-ngrx-example:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular9-ngrx-example:build:production"
+              "browserTarget": "angular10-from-angular9-ngrx-example:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular9-ngrx-example:build"
+            "browserTarget": "angular10-from-angular9-ngrx-example:build"
           }
         },
         "test": {
@@ -110,18 +110,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angular9-ngrx-example:serve"
+            "devServerTarget": "angular10-from-angular9-ngrx-example:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "angular9-ngrx-example:serve:production"
+              "devServerTarget": "angular10-from-angular9-ngrx-example:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "angular9-ngrx-example",
+  "defaultProject": "angular10-from-angular9-ngrx-example",
   "cli": {
     "analytics": "6c4b78db-4fa9-4cb8-a893-a0111abc1cb0"
   }

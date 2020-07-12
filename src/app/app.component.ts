@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular9-ngrx-exampleExample';
+  title = 'angular10-from-angular9-ngrx-example';
 }
